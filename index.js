@@ -1,5 +1,4 @@
 module.exports = (length) => {
-  console.log(process.stdout.columns);
   const end = process.stdout.columns - 2;
 
   return (current) => {
